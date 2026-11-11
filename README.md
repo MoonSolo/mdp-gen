@@ -269,9 +269,11 @@ Errors and warnings go to `stderr`; progress/debug lines go to `stdout`.
 
 ```
 .
-├── generate_fixed.py
-├── generate_random.py
-├── swapper.py
+├── src/
+|   ├── generate_fixed.py
+|   ├── generate_random.py
+|   ├── swapper.py
+|   └── mdpgen.py
 ├── README.md
 └── output/            # created automatically on demand
 ```
